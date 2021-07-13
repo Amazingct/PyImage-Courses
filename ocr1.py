@@ -2,8 +2,8 @@ import pytesseract
 import argparse
 import cv2
 
-# tell python when Tesseract is installed
-pytesseract.pytesseract.tesseract_cmd = r'A:\tesseract\tesseract.exe'
+# tell python when Tesseract is installed if not stored in main drive
+# pytesseract.pytesseract.tesseract_cmd = r'A:\tesseract\tesseract.exe'
 
 # argument passing
 ap = argparse.ArgumentParser()
